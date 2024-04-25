@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<SelectDialog items="{/results}" title="Select ID" contentHeight="350px" confirm="onCofirmName"  liveChange="onChangeId">
+		<StandardListItem title="{name}" ></StandardListItem>
+		
+	</SelectDialog>
+	
+</core:FragmentDefinition>
